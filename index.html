@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta http-equiv="Content-Type" content="text/html" />
+    <meta name="author" content="Aram Petrosyan" />
+    <meta
+      name="description"
+      content="Note Taking home page | Use notes to capture your ideas and make checklists!"
+    />
+    <meta
+      name="keywords"
+      content="notes, note writer, take a note, publishing, note publishing, article to edit"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Note Taking" />
+    <meta
+      property="og:description"
+      content="Use Notes To Capture Your Ideas, Just Visit Our Website"
+    />
+    <meta property="og:image" content="/" />
+    <meta property="og:image:width" content="600" />
+    <meta property="og:image:height" content="500" />
+    <meta property="og:url" content="/" />
+    <meta name="twitter:card" content="Note Taking" />
+    <meta name="twitter:site" content="@" />
+    <meta name="copyright" content="Note Taking 2020 Inc. C" />
+
+    <title>Note Taking</title>
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon_io/site.webmanifest" />
+    <link href="./styles/index.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <aside class="sidenav">
+      <header class="sidenav-header">
+        <span class="header-circle"></span>
+        <span class="header-line"></span>
+      </header>
+
+      <section class="sidenav-content">
+        <div>
+          <nav class="navbar">
+            <ul class="nav-list">
+              <li class="nav-list__item">
+                <a href="#" target="_self"
+                  ><i class="material-icons sidenav-icon">dashboard</i
+                  >Overview</a
+                >
+              </li>
+
+              <li class="nav-list__item">
+                <a href="#" target="_self"
+                  ><i class="material-icons sidenav-icon">assignment</i>Tasks</a
+                >
+              </li>
+
+              <li class="nav-list__item">
+                <a href="#" target="_self"
+                  ><i class="material-icons sidenav-icon">description</i
+                  >Documents</a
+                >
+              </li>
+
+              <li class="nav-list__item">
+                <a href="#" target="_self"
+                  ><i class="material-icons sidenav-icon">content_copy</i
+                  >Notes</a
+                >
+              </li>
+
+              <li class="nav-list__item">
+                <a href="#" target="_self"
+                  ><i class="material-icons sidenav-icon">timeline</i>Output</a
+                >
+              </li>
+
+              <li class="nav-list__item">
+                <a href="#" target="_self"
+                  ><i class="material-icons sidenav-icon">headset_mic</i
+                  >Support</a
+                >
+              </li>
+            </ul>
+          </nav>
+
+          <ul class="tag-list">
+            <li class="tag-list__item">
+              <button>
+                <i class="material-icons tag-icon tag-icon--color1">lens</i
+                >Projects
+              </button>
+            </li>
+
+            <li class="tag-list__item">
+              <button>
+                <i class="material-icons tag-icon tag-icon--color2">lens</i
+                >Business
+              </button>
+            </li>
+
+            <li class="tag-list__item">
+              <button>
+                <i class="material-icons tag-icon tag-icon--color3">lens</i
+                >Personal
+              </button>
+            </li>
+
+            <li class="tag-list__item">
+              <button>
+                <i class="material-icons add-icon">add</i>
+                Add new
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <div class="social-media">
+          <ul class="media-list">
+            <li class="media-list__item">
+              <a href="https://www.facebook.com/" target="_blank"
+                ><i class="fa fa-facebook"></i
+              ></a>
+            </li>
+
+            <li class="media-list__item">
+              <a href="https://twitter.com/" target="_blank"
+                ><i class="fa fa-twitter"></i
+              ></a>
+            </li>
+
+            <li class="media-list__item">
+              <a href="https://www.linkedin.com/" target="_blank"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </aside>
+
+    <div class="wrapper">
+      <header class="page-head">
+        <form action="/">
+          <div class="search-box">
+            <i class="fa fa-search search-icon"></i>
+            <input type="search" placeholder="Search" name="search" />
+          </div>
+        </form>
+
+        <section class="user-cont">
+          <div class="user-info">
+            <i class="material-icons user-icon">face</i>
+            <p class="user-name">Hello, User!</p>
+          </div>
+
+          <button class="notif-btn">
+            <i class="material-icons">notifications_none</i>
+          </button>
+        </section>
+      </header>
+
+      <main class="page-content">
+        <h1 class="page-title">Note Taking. Take a note here</h1>
+
+        <section class="control-box">
+          <div class="filter">
+            <button class="filter__btn" autofocus>All</button>
+            <button class="filter__btn">Projects</button>
+            <button class="filter__btn">Business</button>
+            <button class="filter__btn">Personal</button>
+          </div>
+
+          <div class="new-note">
+            <i class="material-icons control-icon">control_point</i>
+            <a class="new-note__link" href="#" target="_self">Add new note</a>
+          </div>
+        </section>
+
+        <section class="notes">
+          <div class="single-note">
+            <time class="single-note__datetime" datetime="2019-05-15"
+              >15 May 2019</time
+            >
+            <p class="single-note__text">Al contrario di quanto si pensi</p>
+            <img
+              class="single-note__img"
+              src="./assets/images/img-1.jpg"
+              alt="Movie shot"
+            />
+          </div>
+
+          <div class="single-note">
+            <time class="single-note__datetime" datetime="2019-01-11"
+              >11 January 2019
+            </time>
+            <p class="single-note__text">È universalmente riconosciuto che</p>
+            <img
+              class="single-note__img"
+              src="./assets/images/img-5.jpg"
+              alt="Football"
+            />
+          </div>
+
+          <div class="single-note">
+            <time class="single-note__datetime" datetime="2020-08-22"
+              >22 August 2020
+            </time>
+            <p class="single-note__text">Lorem ipsum dolor sit amet</p>
+            <img
+              class="single-note__img"
+              src="./assets/images/img-3.jpg"
+              alt="IT company"
+            />
+          </div>
+
+          <div class="single-note">
+            <time class="single-note__datetime" datetime="2020-10-13"
+              >13 October 2020</time
+            >
+            <p class="single-note__text">Sed ut perspiciatis unde omnis</p>
+            <img
+              class="single-note__img"
+              src="./assets/images/img-2.jpg"
+              alt="Paris city"
+            />
+          </div>
+
+          <div class="single-note">
+            <time class="single-note__datetime" datetime="2020-11-24"
+              >24 November 2020</time
+            >
+            <p class="single-note__text">Lorem Ipsum è un testo segnaposto</p>
+            <img
+              class="single-note__img"
+              src="./assets/images/img-4.jpg"
+              alt="Guitar player"
+            />
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
