@@ -13,4 +13,3 @@
   - _CSS grid_
   - _Flexboxes_
   - _Media queries_
-  - _BEM methodology_
