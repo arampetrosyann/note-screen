@@ -1,0 +1,23 @@
+:root {
+  --main-head-height: 60px;
+  --main-content-padding: 20px;
+
+  --sidenav-area-width: 240px;
+  --sidenav-head-bg-color: rgb(106, 97, 192);
+  --sidenav-bg-color: rgb(137, 129, 216);
+  --sidenav-text-color: rgb(249, 249, 249);
+  --nav-betline-color: rgba(104, 95, 189, 0.4);
+
+  --head-bg-color: rgb(255, 255, 255);
+  --head-text-color: rgb(21, 22, 23);
+  --head-box-shadow: 2px 5px 10px rgba(136, 137, 138, 0.5);
+  --head-icons-color: rgb(0, 0, 0);
+
+  --content-bg-color: rgb(249, 249, 249);
+  --content-text-color: rgb(0, 0, 0);
+
+  --btn-hover-color: rgb(119, 111, 202);
+
+  --scrollbar-main-color: rgb(137, 129, 216);
+  --scrollbar-sty-color: rgb(240, 240, 240);
+}
