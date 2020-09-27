@@ -1,4 +1,4 @@
-# Note Taking web page
+# Note Taking Screen web page
 
 ## Stack
 
